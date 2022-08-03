@@ -40,6 +40,11 @@ nav ul li{
     display: inline-block;
     padding: 10px 25px;
 }
+nav i{
+    font-size: 20px;
+    color: #f9004d;
+    display: flex;
+}
 nav ul li a{
     color: white;
     text-decoration: none;
@@ -312,3 +317,115 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 14px;
 }
+@media screen and (max-width: 768px) {
+    .main{
+        flex-direction: column;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about img{
+        width: 100%;
+        height: auto;
+    }
+    .about-text h2{
+        font-size: 50px;
+    }
+    .about-text h5{
+        font-size: 18px;
+    }
+    .about-text p{
+        font-size: 14px;
+    }
+    .service{
+        padding: 20px 0px;
+    }
+    .title h2{
+        font-size: 50px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        margin: 0px;
+    }
+    .card i{
+        font-size: 40px;
+    }
+    .card h5{
+        font-size: 18px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    .card .button{
+        padding: 7px 15px;
+    }
+    .contact{
+        height: auto;
+        width: 100%;
+    }
+    .contact p{
+        font-size: 20px;
+    }
+    .contact .button-two{
+        padding: 7px 15px;
+    }
+    .end{
+        bottom: 0px;
+    }
+    .last{
+        padding-left: 110px;
+        padding-right: 110px;
+        margin-top: 50px;
+    }
+    .hero ul li a{
+        font-size: 15px;
+        display: inline-block;
+
+    }
+    .contact{
+        border-radius: 20px;
+    }
+    .contact .button-two{
+        border-radius: 20px; 
+    }
+    .contact p{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .content h1{
+        font-size: 30px;
+        
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content .button{
+        padding: 7px 15px;
+    }
+    .content .button:hover{
+        transform: scale(1.3);
+        transition: .3s;    
+    }
+    .logo{
+        width: 100%;
+        height: auto;
+        padding-bottom: 100px;
+    }
+    nav i{
+        font-size: 20px;
+        display: block;
+    }
+    mav ul{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: #df4b07;
+        top: 80px;
+        left: 0px;
+        text-align: center;
+    }
+    
+}   
